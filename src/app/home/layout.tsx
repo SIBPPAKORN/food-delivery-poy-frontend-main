@@ -42,7 +42,7 @@ export default function RootLayout({
 					</div>
 				</div>
 			</div>
-			<div>{children}</div>
+			<div className="static w-[100px] h-full  bg-slate-300 flex-1">{children}</div>
 		</section>
 	);
 }
